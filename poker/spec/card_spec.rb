@@ -1,6 +1,7 @@
 require 'card'
 describe "Card Class" do 
   subject(:card) {Card.new(1, :heart)}
+  
   describe "#initialize" do 
     it "sets the value of the card" do
       expect(card.value).to eq(1)
